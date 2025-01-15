@@ -4,11 +4,12 @@ using System.Globalization;
 using System.Linq;
 using UnityEngine;
 
+// v 1.0.0
 namespace DinoLabs
 {
     public static class StringFormmatter
     {
-        #region Comma String
+        #region Comma Format
         public static string ToCommaString(string val, CultureInfo culture = null)
         {
             if (string.IsNullOrEmpty(val))
